@@ -9,7 +9,6 @@
 (require 'prelude-company)
 (require 'prelude-key-chord) ;; Binds useful features to key combinations
 ;; (require 'prelude-evil)
-
 ;;; Programming languages support
 (require 'prelude-c)
 ;; (require 'prelude-clojure)
