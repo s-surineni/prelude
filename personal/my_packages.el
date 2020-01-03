@@ -1,6 +1,7 @@
-(prelude-require-packages '(deadgrep default-text-scale))
+(prelude-require-packages '(deadgrep default-text-scale
+                                     yasnippet))
 
-
+(yas-global-mode 1)
 ;; global
 (global-unset-key (kbd "C-z"))
 ;; company-mode
@@ -10,3 +11,5 @@
 (global-set-key (kbd "s-f") 'deadgrep)
 
 (default-text-scale-mode t)
+(disable-theme 'zenburn)
+(setq prelude-theme 'monokai)
