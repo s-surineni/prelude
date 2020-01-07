@@ -7,7 +7,8 @@
 (global-unset-key (kbd "C-z"))
 ;; company-mode
 (setq company-idle-delay 0)
-
+(define-key company-mode-map (kbd "<backtab>") 'company-complete)
+;; (define-key python-mode-map (kbd "<backtab>") nil)
 ;; dead grep
 (global-set-key (kbd "s-f") 'deadgrep)
 
