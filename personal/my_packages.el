@@ -1,4 +1,4 @@
-(prelude-require-packages '(deadgrep))
+(prelude-require-packages '(deadgrep yasnippet))
 
 
 ;; global
