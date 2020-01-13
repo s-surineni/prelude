@@ -9,7 +9,8 @@
 (global-unset-key (kbd "C-z"))
 
 ;; avy
-(global-set-key (kbd "C-:") 'avy-goto-char)
+(global-set-key (kbd "C-;") 'avy-goto-char-timer)
+
 
 ;; company-mode
 (setq company-idle-delay 0)
@@ -18,6 +19,9 @@
 ;; dead grep
 
 (global-set-key (kbd "s-f") 'deadgrep)
+(global-set-key (kbd "C-h") 'helm-projectile-find-file)
+(global-set-key (kbd "C-j") 'helm-mini)
+
 
 (default-text-scale-mode t)
 (global-hl-line-mode -1)
@@ -28,3 +32,4 @@
 (setenv "LC_ALL" "en_US.UTF-8")
 (setenv "LC_CTYPE" "en_US.UTF-8")
 (setenv "PYTHONIOENCODING" "utf-8")
+(set-default-coding-systems 'utf-8)
