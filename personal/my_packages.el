@@ -22,6 +22,8 @@
 (global-set-key (kbd "C-h") 'helm-projectile-find-file)
 (global-set-key (kbd "C-j") 'helm-mini)
 
+(define-key lisp-interaction-mode-map (kbd "C-j") nil)
+
 
 (default-text-scale-mode t)
 (global-hl-line-mode -1)
