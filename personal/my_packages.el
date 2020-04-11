@@ -18,9 +18,32 @@
 ;; (define-key python-mode-map (kbd "<backtab>") nil)
 ;; dead grep
 
-(global-set-key (kbd "s-f") 'deadgrep)
+(global-set-key (kbd "RET") 'newline-and-indent)
+
+(global-set-key (kbd "C--") 'split-window-below)
+(global-set-key (kbd "C-\\") 'split-window-right)
+(global-set-key (kbd "C-/") 'comment-line)
+
+(global-set-key (kbd "C-b") 'backward-word)
+(global-set-key (kbd "C-f") 'forward-word)
+
 (global-set-key (kbd "C-h") 'helm-projectile-find-file)
 (global-set-key (kbd "C-j") 'helm-mini)
+(global-set-key (kbd "C-l") 'goto-line)
+(global-set-key (kbd "C-o") 'helm-find-files) ; finding files
+(global-set-key (kbd "C-q") 'hippie-expand)
+(global-set-key (kbd "C-v") 'yank)
+(global-set-key (kbd "C-z") 'undo)
+
+(global-set-key (kbd "M-/") 'comment-dwim);for commenting and uncommenting
+(global-set-key (kbd "M-a") 'beginning-of-buffer)
+(global-set-key (kbd "M-b") 'backward-char)
+(global-set-key (kbd "M-d") 'delete-char)
+(global-set-key (kbd "M-e") 'end-of-buffer)
+(global-set-key (kbd "M-o") 'ace-window)
+(global-set-key (kbd "M-f") 'forward-char)
+
+(global-set-key (kbd "s-f") 'deadgrep)
 
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
 
