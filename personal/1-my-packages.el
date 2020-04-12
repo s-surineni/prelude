@@ -4,6 +4,7 @@
                                      yasnippet yasnippet-snippets))
 
 
+(require 'smartparens-config)
 
 ;; global
 (global-unset-key (kbd "C-z"))
