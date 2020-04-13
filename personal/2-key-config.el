@@ -14,6 +14,7 @@
 (global-set-key (kbd "C-o") 'helm-find-files) ; finding files
 (global-set-key (kbd "C-q") 'hippie-expand)
 (global-set-key (kbd "C-v") 'yank)
+(global-set-key (kbd "C-w") 'easy-kill)
 (global-set-key (kbd "C-z") 'undo)
 
 (global-set-key (kbd "M-/") 'comment-dwim);for commenting and uncommenting
@@ -25,7 +26,13 @@
 
 (global-set-key (kbd "M-o") 'ace-window)
 (global-set-key (kbd "M-f") 'forward-char)
+(global-set-key (kbd "M-w") 'kill-region)
 
 (global-set-key (kbd "s-f") 'deadgrep)
 
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
+
+
+
+;; specific to org
+;; (define-key org-mode-map (kbd "C-j") nil)
