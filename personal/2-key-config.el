@@ -30,9 +30,6 @@
 
 (global-set-key (kbd "s-f") 'deadgrep)
 
+(require 'org)
+(define-key org-mode-map (kbd "C-j") nil)
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
-
-
-
-;; specific to org
-;; (define-key org-mode-map (kbd "C-j") nil)
