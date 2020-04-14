@@ -5,6 +5,7 @@
 
 
 (setq prelude-format-on-save nil)
+(setq prelude-clean-whitespace-on-save 1)
 (require 'smartparens-config)
 
 ;; global
