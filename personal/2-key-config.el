@@ -6,6 +6,8 @@
 (global-set-key (kbd "C-/") 'comment-line)
 
 (global-set-key (kbd "C-b") 'backward-word)
+;; TODO: find out what is default mapping in prelude
+(global-set-key (kbd "C-d") 'sp-delete-word)
 (global-set-key (kbd "C-f") 'forward-word)
 
 (global-set-key (kbd "C-h") 'helm-projectile-find-file)
