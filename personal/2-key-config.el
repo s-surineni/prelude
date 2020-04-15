@@ -25,7 +25,7 @@
 (global-set-key (kbd "M-d") 'delete-char)
 (global-set-key (kbd "M-e") 'end-of-buffer)
 (define-key prelude-mode-map (kbd "M-o") nil)
-
+(define-key magit-file-section-map (kbd "C-j") nil)
 (global-set-key (kbd "M-o") 'ace-window)
 (global-set-key (kbd "M-f") 'forward-char)
 (global-set-key (kbd "M-w") 'kill-region)
