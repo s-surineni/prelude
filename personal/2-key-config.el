@@ -1,11 +1,13 @@
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+
 (global-set-key (kbd "C--") 'split-window-below)
 (global-set-key (kbd "C-\\") 'split-window-right)
 (define-key undo-tree-map (kbd "C-/") nil)
 (global-set-key (kbd "C-/") 'comment-line)
 
 (global-set-key (kbd "C-b") 'backward-word)
+(global-set-key (kbd "<C-backspace>") 'sp-backward-delete-word)
 ;; TODO: find out what is default mapping in prelude
 (global-set-key (kbd "C-d") 'sp-delete-word)
 (global-set-key (kbd "C-f") 'forward-word)
@@ -25,6 +27,9 @@
 (global-set-key (kbd "M-d") 'delete-char)
 (global-set-key (kbd "M-e") 'end-of-buffer)
 (define-key prelude-mode-map (kbd "M-o") nil)
+
+(require 'magit)
+
 (define-key magit-file-section-map (kbd "C-j") nil)
 (global-set-key (kbd "M-o") 'ace-window)
 (global-set-key (kbd "M-f") 'forward-char)
@@ -33,5 +38,6 @@
 (global-set-key (kbd "s-f") 'deadgrep)
 
 (require 'org)
+(setq org-edit-src-content-indentation 0)
 (define-key org-mode-map (kbd "C-j") nil)
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
