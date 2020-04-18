@@ -6,6 +6,7 @@
 (global-set-key (kbd "C-j") 'helm-mini)
 (global-set-key (kbd "C-o") 'helm-find-files) ; finding files
 
+(global-set-key (kbd "C-z") 'undo-tree-undo)
 
 (setq minions-mode t)
 (require 'smartparens)
@@ -13,6 +14,7 @@
 
 (define-key prelude-mode-map (kbd "M-o") nil)
 (global-set-key (kbd "M-o") 'ace-window)
+(global-set-key (kbd "M-z") 'undo-tree-redo)
 
 (global-set-key (kbd "s-f") 'deadgrep)
 
