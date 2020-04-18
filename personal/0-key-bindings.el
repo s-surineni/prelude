@@ -13,7 +13,8 @@
 (global-set-key (kbd "C-q") 'hippie-expand)
 (global-set-key (kbd "C-v") 'yank)
 (global-set-key (kbd "C-w") 'easy-kill)
-(global-set-key (kbd "C-z") 'undo)
+(global-set-key (kbd "C-z") 'undo-tree-undo)
+(global-set-key (kbd "M-z") 'undo-tree-redo)
 
 (global-set-key (kbd "M-/") 'comment-dwim);for commenting and uncommenting
 (global-set-key (kbd "M-a") 'beginning-of-buffer)
