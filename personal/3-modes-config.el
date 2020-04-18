@@ -6,6 +6,8 @@
 (global-set-key (kbd "C-j") 'helm-mini)
 (global-set-key (kbd "C-o") 'helm-find-files) ; finding files
 
+
+(setq minions-mode t)
 (require 'smartparens)
 (global-set-key (kbd "C-h") 'helm-projectile-find-file)
 
