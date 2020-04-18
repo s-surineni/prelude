@@ -19,3 +19,4 @@
 (setq org-edit-src-content-indentation 0)
 (define-key org-mode-map (kbd "C-j") nil)
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
+(set-face-attribute 'default nil :height 150)
