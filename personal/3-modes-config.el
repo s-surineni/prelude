@@ -1,7 +1,6 @@
 (define-key undo-tree-map (kbd "C-/") nil)
 (global-set-key (kbd "<C-backspace>") 'sp-backward-delete-word)
 (global-set-key (kbd "C-d") 'sp-delete-word)
-
 (require 'magit)
 (define-key magit-file-section-map (kbd "C-j") nil)
 (global-set-key (kbd "C-j") 'helm-mini)

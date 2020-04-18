@@ -6,6 +6,7 @@
 (global-set-key (kbd "C-/") 'comment-line)
 
 (global-set-key (kbd "C-b") 'backward-word)
+(global-set-key (kbd "C-f") 'forward-word)
 
 ;; TODO: find out what is default mapping in prelude
 (global-set-key (kbd "C-l") 'goto-line)
@@ -23,6 +24,3 @@
 
 (global-set-key (kbd "M-f") 'forward-char)
 (global-set-key (kbd "M-w") 'kill-region)
-
-
-

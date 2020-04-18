@@ -1,6 +1,8 @@
 (prelude-require-packages '(avy deadgrep
                                 default-text-scale
-				     monokai-theme
+                                minions
+                                monokai-theme
+                                pyenv-mode
                                      yasnippet yasnippet-snippets))
 
 
