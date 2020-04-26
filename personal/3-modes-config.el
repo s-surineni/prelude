@@ -23,4 +23,11 @@
 (setq org-edit-src-content-indentation 0)
 (define-key org-mode-map (kbd "C-j") nil)
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
-(set-face-attribute 'default nil :height 150)
+(set-face-attribute 'default nil :height 160)
+(pyenv-mode-set "emacsenv")
+
+
+(yas-global-mode 1)
+(define-key yas-minor-mode-map [(tab)] nil)
+(define-key yas-minor-mode-map (kbd "TAB") nil)
+(define-key yas-minor-mode-map (kbd "M-;") 'yas-expand)

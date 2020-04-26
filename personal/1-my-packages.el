@@ -19,7 +19,9 @@
 
 ;; company-mode
 (setq company-idle-delay 0)
-(define-key company-mode-map (kbd "<backtab>") 'company-complete)
+;; (define-key company-mode-map (kbd "<backtab>") 'company-complete)
+(define-key company-mode-map (kbd "M-j") 'company-complete)
+
 (setq company-dabbrev-downcase nil)
 ;; (define-key python-mode-map (kbd "<backtab>") nil)
 ;; dead grep
