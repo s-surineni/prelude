@@ -1,1 +1,10 @@
+(server-start)
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(setq-default cursoro-type 'bar)
+
 (setq desktop-save-mode t)
+(setq delete-trailing-lines nil)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
