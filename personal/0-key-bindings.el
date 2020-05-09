@@ -9,6 +9,7 @@
 (global-set-key (kbd "C-f") 'forward-word)
 
 ;; TODO: find out what is default mapping in prelude
+(global-set-key (kbd "C-k") 'anzu-query-replace)
 (global-set-key (kbd "C-l") 'goto-line)
 (global-set-key (kbd "C-q") 'hippie-expand)
 (global-set-key (kbd "C-v") 'yank)
