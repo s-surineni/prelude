@@ -11,6 +11,7 @@
 (setq minions-mode t)
 (require 'smartparens)
 (global-set-key (kbd "C-h") 'helm-projectile-find-file)
+(setq helm-buffer-max-length nil)
 
 (define-key prelude-mode-map (kbd "M-o") nil)
 (global-set-key (kbd "M-o") 'ace-window)
