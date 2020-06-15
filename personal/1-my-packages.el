@@ -4,7 +4,9 @@
                                 monokai-theme
                                 pyenv-mode
                                 smart-mode-line
-                                     yasnippet yasnippet-snippets))
+                                yapfify
+                                yasnippet
+                                yasnippet-snippets))
 
 
 (setq prelude-format-on-save nil)
