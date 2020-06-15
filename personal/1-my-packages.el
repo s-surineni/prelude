@@ -3,6 +3,7 @@
                                 minions
                                 monokai-theme
                                 pyenv-mode
+                                smart-mode-line
                                      yasnippet yasnippet-snippets))
 
 
@@ -26,16 +27,29 @@
 ;; (define-key python-mode-map (kbd "<backtab>") nil)
 ;; dead grep
 
-
-
+(sml/setup)
+(setq rm-blacklist
+      (format "^ \\(%s\\)$"
+              (mapconcat #'identity
+                         '("Fly.*"
+                           "Projectile.*"
+                           "PgLn"
+                           "yas"
+                           "guru"
+                           "company"
+                           "Helm"
+                           "super-save"
+                           "ivy"
+                           "EditorConfig"
+                           "SP")
+                         "\\|")))
 (default-text-scale-mode t)
 (global-hl-line-mode -1)
 
 (yas-global-mode 1)
 (setq yas-snippet-dirs (append yas-snippet-dirs '("~/ironman/myemacs/snippets")))
 
-
-;; (setq flycheck-python-pycompile-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
+(setq flycheck-python-pycompile-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
 (setq flycheck-json-python-json-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
 (setq flycheck-python-flake8-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
 ;; (setq flycheck-python-flake8-executable "flake8")
