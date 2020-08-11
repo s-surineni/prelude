@@ -29,7 +29,11 @@
 ;; (define-key python-mode-map (kbd "<backtab>") nil)
 ;; dead grep
 
+;; smart model line related
+(setq sml/no-confirm-load-theme t)
 (sml/setup)
+
+
 (setq rm-blacklist
       (format "^ \\(%s\\)$"
               (mapconcat #'identity
