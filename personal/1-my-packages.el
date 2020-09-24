@@ -1,5 +1,6 @@
 (prelude-require-packages '(avy deadgrep
                                 default-text-scale
+                                hungry-delete
                                 minions
                                 monokai-theme
                                 pyenv-mode
@@ -51,7 +52,8 @@
                          "\\|")))
 (default-text-scale-mode t)
 (global-hl-line-mode -1)
-
+(require 'hungry-delete)
+(global-hungry-delete-mode)
 (yas-global-mode 1)
 (setq yas-snippet-dirs (append yas-snippet-dirs '("~/ironman/myemacs/snippets")))
 
