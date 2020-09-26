@@ -38,7 +38,11 @@
 (setq rm-blacklist
       (format "^ \\(%s\\)$"
               (mapconcat #'identity
-                         '("Fly.*"
+                         '("Eldoc"
+                           "Fly.*"
+                           "h"
+                           "ws"
+                           "WK"
                            "Projectile.*"
                            "PgLn"
                            "yas"
