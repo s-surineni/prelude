@@ -33,8 +33,9 @@
 ;; smart model line related
 (setq sml/no-confirm-load-theme t)
 (sml/setup)
-
-
+;; (setq sml/shorten-directory t)
+(setq sml/shorten-modes t)
+(setq sml/shortener-func (lambda (_dir _max-length) ""))
 (setq rm-blacklist
       (format "^ \\(%s\\)$"
               (mapconcat #'identity
@@ -52,10 +53,14 @@
                            "super-save"
                            "ivy"
                            "EditorConfig"
+                           "Anaconda"
+                           "Pre"
+                           "(*)"
                            "SP")
                          "\\|")))
 (default-text-scale-mode t)
 (global-hl-line-mode -1)
+;; (beacon-mode -1)
 (require 'hungry-delete)
 (global-hungry-delete-mode)
 (yas-global-mode 1)

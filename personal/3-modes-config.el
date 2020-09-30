@@ -1,6 +1,10 @@
 (define-key undo-tree-map (kbd "C-/") nil)
 (global-set-key (kbd "<C-backspace>") 'sp-backward-delete-word)
 (global-set-key (kbd "C-d") 'sp-delete-word)
+;; beacon
+(setq beacon-blink-when-window-scrolls nil)
+(global-set-key (kbd "M-l") 'beacon-blink)
+;; helm
 
 ;; key chord mode
 (key-chord-define-global "uu" nil)
