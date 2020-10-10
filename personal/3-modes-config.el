@@ -38,6 +38,11 @@
 (set-face-attribute 'default nil :height 160)
 (pyenv-mode-set "emacsenv")
 
+;; web mode
+(setq web-mode-engines-alist
+      '(("django"    . "\\.html\\'")
+        ("blade"  . "\\.blade\\."))
+      )
 ;; (add-hook 'python-mode-hook 'yapf-mode)
 (yas-global-mode 1)
 (define-key yas-minor-mode-map [(tab)] nil)
