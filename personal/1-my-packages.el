@@ -33,6 +33,7 @@
 ;; smart model line related
 (setq sml/no-confirm-load-theme t)
 (sml/setup)
+(setq size-indication-mode nil)
 ;; (setq sml/shorten-directory t)
 (setq sml/shorten-modes t)
 (setq sml/shortener-func (lambda (_dir _max-length) ""))
