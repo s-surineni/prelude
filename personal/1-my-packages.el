@@ -33,9 +33,9 @@
 ;; smart model line related
 (setq sml/no-confirm-load-theme t)
 (sml/setup)
-;; (setq size-indication-mode nil)
+(setq size-indication-mode nil)
 ;; (setq sml/shorten-directory t)
-(setq sml/size-indication-format nil)
+;; (setq sml/size-indication-format nil)   ;setting this stopped showing line and colum numbers
 (setq sml/position-percentage-format nil)
 (setq sml/name-width 10)
 ;; (setq sml/use-projectile-p nil)
