@@ -27,7 +27,7 @@
 
 (global-set-key (kbd "s-f") 'deadgrep)
 
-
+(global-nlinum-mode -1)
 (require 'org)
 (setq org-edit-src-content-indentation 0)
 (setq org-startup-truncated nil)
