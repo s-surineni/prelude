@@ -82,3 +82,4 @@
 (setenv "LC_CTYPE" "en_US.UTF-8")
 (setenv "PYTHONIOENCODING" "utf-8")
 (set-default-coding-systems 'utf-8)
+(global-set-key (kbd "M-j") 'dabbrev-expand)
