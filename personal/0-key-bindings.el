@@ -16,6 +16,7 @@
 (global-set-key (kbd "C-w") 'easy-kill)
 
 (global-set-key (kbd "M-/") 'comment-dwim);for commenting and uncommenting
+(define-key smartparens-mode-map "\M-j" nil)
 (global-set-key (kbd "M-j") 'dabbrev-expand)
 (global-set-key (kbd "M-a") 'beginning-of-buffer)
 (global-set-key (kbd "M-b") 'backward-char)
