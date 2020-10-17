@@ -2,7 +2,7 @@
 (global-set-key (kbd "<C-backspace>") 'sp-backward-delete-word)
 (global-set-key (kbd "C-d") 'sp-delete-word)
 ;; beacon
-(setq beacon-blink-when-window-scrolls nil)
+;; (setq beacon-blink-when-window-scrolls nil)
 (global-set-key (kbd "M-l") 'beacon-blink)
 ;; helm
 

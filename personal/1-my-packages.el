@@ -2,7 +2,7 @@
                                 default-text-scale
                                 hungry-delete
                                 minions
-                                monokai-theme
+;;                                monokai-theme
                                 pyenv-mode
                                 smart-mode-line
                                 yapfify
@@ -24,7 +24,7 @@
 ;; company-mode
 (setq company-idle-delay 0)
 ;; (define-key company-mode-map (kbd "<backtab>") 'company-complete)
-(define-key company-mode-map (kbd "M-j") 'company-complete)
+(define-key company-mode-map (kbd "M-h") 'company-complete)
 
 (setq company-dabbrev-downcase nil)
 ;; (define-key python-mode-map (kbd "<backtab>") nil)
@@ -67,6 +67,7 @@
 (default-text-scale-mode t)
 (global-hl-line-mode -1)
 ;; (beacon-mode -1)
+(beacon-mode 1)
 (require 'hungry-delete)
 (global-hungry-delete-mode)
 (yas-global-mode 1)
