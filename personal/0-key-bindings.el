@@ -12,6 +12,7 @@
 (global-set-key (kbd "C-k") 'anzu-query-replace)
 (global-set-key (kbd "C-l") 'goto-line)
 (global-set-key (kbd "C-q") 'hippie-expand)
+(global-set-key (kbd "C-s") 'swiper-isearch)
 (global-set-key (kbd "C-v") 'yank)
 (global-set-key (kbd "C-w") 'easy-kill)
 

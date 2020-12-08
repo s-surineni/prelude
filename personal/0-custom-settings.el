@@ -8,3 +8,4 @@
           (lambda()
             (pyenv-mode-set "emacsenv")))
 (pyenv-mode-set "emacsenv")
+(setq confirm-kill-processes nil)

@@ -4,6 +4,8 @@
 ;; beacon
 ;; (setq beacon-blink-when-window-scrolls nil)
 (global-set-key (kbd "M-l") 'beacon-blink)
+(setq beacon-color "cyan")
+(setq beacon-blink-when-focused t)
 ;; helm
 
 ;; key chord mode
