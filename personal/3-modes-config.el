@@ -9,7 +9,7 @@
 ;; helm
 
 ;; key chord mode
-(key-chord-define-global "uu" nil)
+;; (key-chord-define-global "uu" nil)
 
 (require 'magit)
 (define-key magit-file-section-map (kbd "C-j") nil)
@@ -28,7 +28,7 @@
 (global-set-key (kbd "M-z") 'undo-tree-redo)
 
 (global-set-key (kbd "s-f") 'deadgrep)
-
+(global-set-key (kbd "s-s") 'save-buffer)
 (global-nlinum-mode -1)
 (require 'org)
 (setq org-edit-src-content-indentation 0)

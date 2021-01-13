@@ -1,8 +1,10 @@
-(prelude-require-packages '(avy deadgrep
+(prelude-require-packages '(avy
+                            beacon
+                            deadgrep
                                 default-text-scale
                                 hungry-delete
                                 minions
-;;                                monokai-theme
+                               monokai-theme
                                 pyenv-mode
                                 smart-mode-line
                                 yapfify
@@ -83,3 +85,5 @@
 (setenv "PYTHONIOENCODING" "utf-8")
 (set-default-coding-systems 'utf-8)
 (global-set-key (kbd "M-j") 'dabbrev-expand)
+(pyenv-mode)
+(pyenv-mode-set "emacsenv")
