@@ -1,0 +1,11 @@
+(require 'org-tempo)
+(setq org-src-preserve-indentation nil)
+(setq org-edit-src-content-indentation 0)
+(setq-default cursor-type 'bar)
+(scroll-bar-mode -1)
+(pyenv-mode)
+(add-hook 'python-mode-hook
+          (lambda()
+            (pyenv-mode-set "emacsenv")))
+(pyenv-mode-set "emacsenv")
+(setq confirm-kill-processes nil)
