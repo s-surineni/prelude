@@ -73,7 +73,7 @@
 (require 'hungry-delete)
 (global-hungry-delete-mode)
 (yas-global-mode 1)
-(setq yas-snippet-dirs (append yas-snippet-dirs '("~/ironman/myemacs/snippets")))
+(setq yas-snippet-dirs (append yas-snippet-dirs '("~/.emacs.d/personal/snippets")))
 
 (setq flycheck-python-pycompile-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
 (setq flycheck-json-python-json-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
