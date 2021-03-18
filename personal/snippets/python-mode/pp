@@ -1,0 +1,5 @@
+# key: pp
+# name: pp
+# --
+print('*' * 80)
+print('iron man ${1: }', $1)$0
