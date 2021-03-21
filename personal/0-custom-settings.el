@@ -1,3 +1,4 @@
+(server-start)
 (require 'org-tempo)
 (setq org-src-preserve-indentation nil)
 (setq org-edit-src-content-indentation 0)
