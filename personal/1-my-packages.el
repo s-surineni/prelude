@@ -75,9 +75,7 @@
 (yas-global-mode 1)
 (setq yas-snippet-dirs (append yas-snippet-dirs '("~/.emacs.d/personal/snippets")))
 
-(setq flycheck-python-pycompile-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
-(setq flycheck-json-python-json-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
-(setq flycheck-python-flake8-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
+
 ;; (setq flycheck-python-flake8-executable "flake8")
 (setenv "LANG" "en_US.UTF-8")
 (setenv "LC_ALL" "en_US.UTF-8")
@@ -85,5 +83,5 @@
 (setenv "PYTHONIOENCODING" "utf-8")
 (set-default-coding-systems 'utf-8)
 (global-set-key (kbd "M-j") 'dabbrev-expand)
-(pyenv-mode)
-(pyenv-mode-set "emacsenv")
+;; (pyenv-mode)
+;; (pyenv-mode-set "emacsenv")

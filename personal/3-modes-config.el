@@ -1,3 +1,11 @@
+(add-hook 'python-mode-hook
+          (lambda()
+            (pyenv-mode-set "emacsenv")))
+
+(setq flycheck-python-pycompile-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
+(setq flycheck-json-python-json-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
+(setq flycheck-python-flake8-executable "/Users/sampathsurineni/.pyenv/versions/emacsenv/bin/python")
+
 (define-key undo-tree-map (kbd "C-/") nil)
 (global-set-key (kbd "<C-backspace>") 'sp-backward-delete-word)
 (global-set-key (kbd "C-d") 'sp-delete-word)
