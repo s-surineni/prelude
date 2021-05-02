@@ -7,5 +7,5 @@
 (global-linum-mode -1)
 (setq confirm-kill-processes nil)
 ;; (setq mac-command-key-is-meta nil)
-;; (setq mac-command-modifier 'super)
-;; (setq mac-option-modifier 'meta)
+(setq mac-command-modifier 'super)
+(setq mac-option-modifier 'meta)
