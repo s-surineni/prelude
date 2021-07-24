@@ -1,15 +1,15 @@
 (prelude-require-packages '(avy
                             beacon
                             deadgrep
-                                default-text-scale
-                                hungry-delete
-                                minions
-                               monokai-theme
-                                pyenv-mode
-                                smart-mode-line
-                                yapfify
-                                yasnippet
-                                yasnippet-snippets))
+                            default-text-scale
+                            hungry-delete
+                            minions
+                            monokai-theme
+                            pyenv-mode
+                            smart-mode-line
+                            yapfify
+                            yasnippet
+                            yasnippet-snippets))
 
 
 (setq prelude-format-on-save nil)
