@@ -36,6 +36,7 @@
 (global-set-key (kbd "M-z") 'undo-tree-redo)
 
 (global-set-key (kbd "s-f") 'deadgrep)
+(global-set-key (kbd "<f5>") #'deadgrep)
 (global-set-key (kbd "s-s") 'save-buffer)
 (global-nlinum-mode -1)
 (super-save-mode -1)

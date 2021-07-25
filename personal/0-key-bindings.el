@@ -26,6 +26,7 @@
 
 
 (global-set-key (kbd "M-f") 'forward-char)
+(global-set-key (kbd "M-s") 'save-buffer)
 (global-set-key (kbd "M-w") 'kill-region)
 (global-set-key (kbd "s-v") 'yank)
 (global-set-key (kbd "s-a") 'mark-whole-buffer)
