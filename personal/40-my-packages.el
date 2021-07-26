@@ -85,3 +85,6 @@
 (global-set-key (kbd "M-j") 'dabbrev-expand)
 ;; (pyenv-mode)
 ;; (pyenv-mode-set "emacsenv")
+
+(add-to-list 'load-path "/home/ssurineni/ironman/eemacs/vanish")
+(load "vanish")
