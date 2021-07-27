@@ -62,3 +62,4 @@
 (define-key yas-minor-mode-map (kbd "M-;") 'yas-expand)
 (setq undo-tree-enable-undo-in-region t)
 (global-display-line-numbers-mode -1)
+(setq elpy-rpc-virtualenv-path "~/.pyenv/versions/emacsenv")
