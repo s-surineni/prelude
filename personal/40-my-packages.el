@@ -4,7 +4,7 @@
                             default-text-scale
                             hungry-delete
                             minions
-                            monokai-theme
+                            ;; monokai-theme
                             pyenv-mode
                             smart-mode-line
                             yapfify
