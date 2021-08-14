@@ -7,6 +7,7 @@
                             monokai-theme
                             pyenv-mode
                             smart-mode-line
+                            spacemacs-theme
                             use-package
                             yapfify
                             yasnippet
