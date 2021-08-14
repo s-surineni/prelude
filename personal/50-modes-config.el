@@ -1,3 +1,9 @@
+;;;;;;;;e;;;;;;;;;;;
+(use-package elpy
+             :ensure t
+             :init
+             (elpy-enable))
+
 (add-hook 'python-mode-hook
           (lambda()
             (pyenv-mode-set "emacsenv")))
