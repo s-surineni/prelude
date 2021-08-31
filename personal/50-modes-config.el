@@ -1,3 +1,13 @@
+;;;;;;;;e;;;;;;;;;;;
+(use-package elpy
+             :ensure t
+             :init
+             (elpy-enable))
+
+(add-hook 'elpy-mode-hook (lambda ()
+                            (add-hook 'before-save-hook
+                                      'elpy-black-fix-code nil t)))
+
 (add-hook 'python-mode-hook
           (lambda()
             (pyenv-mode-set "emacsenv")))

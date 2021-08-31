@@ -7,6 +7,8 @@
                             ;; monokai-theme
                             pyenv-mode
                             smart-mode-line
+                            spacemacs-theme
+                            use-package
                             yapfify
                             yasnippet
                             yasnippet-snippets))
@@ -86,5 +88,5 @@
 ;; (pyenv-mode)
 ;; (pyenv-mode-set "emacsenv")
 
-(add-to-list 'load-path "/home/ssurineni/ironman/eemacs/vanish")
+(add-to-list 'load-path "/Users/ssurineni/ironman/projects/vanish")
 (load "vanish")
