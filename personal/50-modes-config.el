@@ -8,6 +8,8 @@
                             (add-hook 'before-save-hook
                                       'elpy-black-fix-code nil t)))
 
+;;;;;;;;;;h;;;;;;;;;;
+(add-to-list 'helm-completing-read-handlers-alist '(org-insert-link))
 (add-hook 'python-mode-hook
           (lambda()
             (pyenv-mode-set "emacsenv")))

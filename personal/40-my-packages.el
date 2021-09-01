@@ -88,5 +88,5 @@
 ;; (pyenv-mode)
 ;; (pyenv-mode-set "emacsenv")
 
-(add-to-list 'load-path "/Users/ssurineni/ironman/projects/vanish")
+(add-to-list 'load-path "~/ironman/eemacs/vanish")
 (load "vanish")
