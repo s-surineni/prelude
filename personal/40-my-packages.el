@@ -21,10 +21,6 @@
 ;; global
 (global-unset-key (kbd "C-z"))
 
-;; avy
-(global-set-key (kbd "C-;") 'avy-goto-char-timer)
-
-
 ;; company-mode
 (setq company-idle-delay 0)
 ;; (define-key company-mode-map (kbd "<backtab>") 'company-complete)
@@ -90,3 +86,17 @@
 
 (add-to-list 'load-path "~/ironman/eemacs/vanish")
 (load "vanish")
+
+(defvar my-keys-minor-mode-map
+  (let ((map (make-sparse-keymap)))
+    (define-key map (kbd "M-s") 'save-buffer)
+    (define-key map (kbd "C-;") 'avy-goto-char-timer)
+    map)
+  "my-keys-minor-mode keymap.")
+
+(define-minor-mode my-keys-minor-mode
+  "A minor mode so that my key settings override annoying major modes."
+  :init-value t
+  :lighter " my-keys")
+
+(my-keys-minor-mode 1)
