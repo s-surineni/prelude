@@ -32,18 +32,6 @@
 (global-set-key (kbd "s-a") 'mark-whole-buffer)
 
 
-(defvar my-keys-minor-mode-map
-  (let ((map (make-sparse-keymap)))
-    (define-key map (kbd "M-s") 'save-buffer)
-    map)
-  "my-keys-minor-mode keymap.")
-
-(define-minor-mode my-keys-minor-mode
-  "A minor mode so that my key settings override annoying major modes."
-  :init-value t
-  :lighter " my-keys")
-
-(my-keys-minor-mode 1)
 
 ;; turns off in minor mode
 (defun my-minibuffer-setup-hook ()
