@@ -26,7 +26,7 @@
 ;; (define-key company-mode-map (kbd "<backtab>") 'company-complete)
 (define-key company-mode-map (kbd "M-h") 'company-complete)
 
-(setq company-dabbrev-downcase nil)
+;; (setq company-dabbrev-downcase nil)
 ;; (define-key python-mode-map (kbd "<backtab>") nil)
 ;; dead grep
 
@@ -84,7 +84,7 @@
 ;; (pyenv-mode)
 ;; (pyenv-mode-set "emacsenv")
 
-(add-to-list 'load-path "~/ironman/eemacs/vanish")
+(add-to-list 'load-path "/Users/ssurineni/ironman/projects/vanish")
 (load "vanish")
 
 (defvar my-keys-minor-mode-map

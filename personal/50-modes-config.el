@@ -30,7 +30,7 @@
 
 ;; key chord mode
 ;; (key-chord-define-global "uu" nil)
-
+;; (setq debug-on-error t)
 (require 'magit)
 (define-key magit-file-section-map (kbd "C-j") nil)
 (global-set-key (kbd "C-j") 'helm-mini)
@@ -51,7 +51,7 @@
 (global-set-key (kbd "<f5>") #'deadgrep)
 (global-set-key (kbd "s-s") 'save-buffer)
 (global-nlinum-mode -1)
-(super-save-mode -1)
+;; (super-save-mode -1)
 (require 'org)
 (setq org-edit-src-content-indentation 0)
 (setq org-startup-truncated nil)
