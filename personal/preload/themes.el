@@ -7,6 +7,6 @@
 ;; monokai-height-minus-11.0)
 
 ;; (setq prelude-theme 'monokai)
-(setq prelude-theme 'spacemacs-dark)
-(setq spacemacs-theme-org-bold nil)
-(setq spacemacs-theme-org-height nil)
+;; (setq prelude-theme 'spacemacs-dark)
+;; (setq spacemacs-theme-org-bold nil)
+;; (setq spacemacs-theme-org-height nil)
