@@ -84,8 +84,8 @@
 ;; (pyenv-mode)
 ;; (pyenv-mode-set "emacsenv")
 
-(add-to-list 'load-path "/Users/ssurineni/ironman/projects/vanish")
-(load "vanish")
+;; (add-to-list 'load-path "/Users/ssurineni/ironman/projects/vanish")
+;; (load "vanish")
 
 (defvar my-keys-minor-mode-map
   (let ((map (make-sparse-keymap)))
