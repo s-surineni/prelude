@@ -5,7 +5,6 @@
 (auto-save-visited-mode +1)
 (setq-default cursor-type 'bar)
 (scroll-bar-mode -1)
-(global-linum-mode -1)
 (setq confirm-kill-processes nil)
 ;; (setq mac-command-key-is-meta nil)
 (setq mac-command-modifier 'super)
