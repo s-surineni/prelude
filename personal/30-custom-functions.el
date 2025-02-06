@@ -32,3 +32,28 @@
 
 
 (global-set-key (kbd "C-x C-k") 'fdx/delete-current-buffer-file)
+
+;; (defun git-add-commit-push (commit-message)
+;;   "Add changed files, commit with the given COMMIT-MESSAGE, and push to the remote repository."
+;;   (interactive "sCommit message: ")
+;;   (shell-command "git add .")
+;;   (shell-command (format "git commit -m \"%s\"" commit-message))
+;;   (shell-command "git push"))
+
+;; (global-set-key (kbd "C-c C-g") 'git-add-commit-push)
+
+;; (defun git-add-commit-push (commit-message)
+;;   "Add changed files, commit with the given COMMIT-MESSAGE, and push to the remote repository."
+;;   (interactive "sCommit message: ")
+;;   (shell-command "git add .")
+;;   (shell-command (format "git commit -m \"%s\"" commit-message))
+;;   (shell-command "git push"))
+
+(defun git-add-commit-push ()
+  "Add changed files, commit with a default message 'refresh', and push to the specified branch."
+  (interactive)
+  (shell-command "git add .")
+  (shell-command "git commit -m 'refresh'")
+  (shell-command (format "git push")))
+
+(global-set-key (kbd "C-c C-p") 'git-add-commit-push)
