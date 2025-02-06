@@ -54,6 +54,7 @@
   (interactive)
   (shell-command "git add .")
   (shell-command "git commit -m 'refresh'")
+  (shell-command (format "git pull"))
   (shell-command (format "git push")))
 
 (global-set-key (kbd "C-c C-p") 'git-add-commit-push)
