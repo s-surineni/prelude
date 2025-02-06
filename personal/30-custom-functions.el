@@ -57,4 +57,4 @@
   (shell-command (format "git pull"))
   (shell-command (format "git push")))
 
-(global-set-key (kbd "C-i") 'git-add-commit-push)
+(global-set-key (kbd "C-c M-p") 'git-add-commit-push)
