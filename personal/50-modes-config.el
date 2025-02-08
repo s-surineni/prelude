@@ -59,8 +59,7 @@
 
 (define-key org-mode-map (kbd "C-j") nil)
 (define-key lisp-interaction-mode-map (kbd "C-j") nil)
-;; setting font size
-;; (set-face-attribute 'default nil :height 100)
+
 (pyenv-mode-set "emacsenv")
 
 ;; web mode

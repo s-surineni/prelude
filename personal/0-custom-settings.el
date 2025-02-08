@@ -9,3 +9,5 @@
 ;; (setq mac-command-key-is-meta nil)
 (setq mac-command-modifier 'super)
 (setq mac-option-modifier 'meta)
+;; setting font size
+(set-face-attribute 'default nil :height 150)
