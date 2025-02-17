@@ -52,8 +52,7 @@
 (defun git-add-commit-push ()
   "Add changed files, commit with a default message 'refresh', and push to the specified branch."
   (interactive)
-  (shell-command "git add .")
-  (shell-command "git commit -m 'refresh'")
+  (shell-command "git commit -am 'refresh'")
   (shell-command (format "git pull"))
   (shell-command (format "git push")))
 
